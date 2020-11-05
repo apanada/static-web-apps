@@ -19,9 +19,8 @@ class AppComponent extends Component<{}, IAppState> {
   async componentDidMount() {
     // GET request using fetch with async/await
     const response = await fetch("/api/GetMessage?name='Ajit'");
-    const data = await response.json();
-    console.log(data);
-    this.setState({ message: data })
+    console.log(response);
+    this.setState({ message: response })
   }
 
   render() {
