@@ -1,0 +1,5 @@
+{
+    "staticWebApps.appSubpath": "react-app",
+    "staticWebApps.apiSubpath": "react-app",
+    "staticWebApps.appArtifactSubpath": "build"
+}
